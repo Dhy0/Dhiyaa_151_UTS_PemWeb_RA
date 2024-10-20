@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Form Pendaftaran</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <nav>
+          <h1>Bruno Mars</h1>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="form.html">Formulir Pendaftaran</a></li>
+            <li><a href="table.html">Tabel Pendaftaran</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main>
+        <div class="h1-logo">
+          <h1>Formulir Pendaftaran Konser Bruno Mars</h1>
+        </div>
+        <img src="img/Konser Bruno Mars.jpeg" alt="Bangku Konser Bruno Mars" />
+        <form action="table.html" method="get" target="_blank">
+          <fieldset>
+            <div>
+              <label for="bangku">Bangku Yang Diinginkan:</label>
+              <input type="text" id="bangku" name="bangku" required />
+            </div>
+            <div>
+              <label for="name">Nama:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="phone">Nomor Telepon:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div>
+              <label for="date">Tanggal Pembelian:</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div>
+              <label for="gander">Jenis Kelamin:</label>
+              <div class="gander">
+                <input type="radio" id="gander" name="gander" value="male" />
+                <label for="gander">Laki-laki</label>
+                <input type="radio" id="gander" name="gander" value="female" />
+                <label for="gander">Perempuan</label>
+              </div>
+            </div>
+            <div>
+              <label for="pemberitahuan">
+                <input
+                  type="checkbox"
+                  id="pemberitahuan"
+                  name="pemberitahuan"
+                />
+                Apakah Anda Sudah Yakin
+              </label>
+            </div>
+            <div>
+              <input type="submit" value="Submit" />
+            </div>
+          </fieldset>
+        </form>
+      </main>
+    </div>
+
+    <footer>
+      <small>
+        Developer by
+        <a href="https://github.com/dhy0">Dhiyaa Sheva Virgiany Hermans</a>
+        <ul>
+          <li><a href="https://github.com/dhy0">Github</a></li>
+          <li><a href="https://instagram.com/dhysheva">Instagram</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/dhiyaa-sheva-virgiany-hermans-374a29295/"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </small>
+    </footer>
+  </body>
+</html>
