@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Form Pendaftaran</title>
+    <link rel="icon" href="img/Logo Bruno Mars.png" type="image/x-icon" />
   </head>
   <body>
-    <div class="container">
+    <div class="container h-event">
       <aside class="sidebar">
         <nav>
           <h1>Bruno Mars</h1>
@@ -21,37 +22,81 @@
 
       <main>
         <div class="h1-logo">
-          <h1>Formulir Pendaftaran Konser Bruno Mars</h1>
+          <h1>
+            Formulir Pendaftaran Konser <span class="p-name">Bruno Mars</span>
+          </h1>
         </div>
         <img src="img/Konser Bruno Mars.jpeg" alt="Bangku Konser Bruno Mars" />
-        <form action="table.html" method="get" target="_blank">
+        <form action="table.html" method="get" target="_blank" class="h-entry">
           <fieldset>
             <div>
               <label for="bangku">Bangku Yang Diinginkan:</label>
-              <input type="text" id="bangku" name="bangku" required />
+              <input
+                type="text"
+                id="bangku"
+                name="bangku"
+                required
+                class="p-seat"
+              />
             </div>
             <div>
               <label for="name">Nama:</label>
-              <input type="text" id="name" name="name" required />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="p-name"
+              />
             </div>
             <div>
               <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="u-email"
+              />
             </div>
             <div>
               <label for="phone">Nomor Telepon:</label>
-              <input type="tel" id="phone" name="phone" required />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                class="p-tel"
+              />
             </div>
             <div>
               <label for="date">Tanggal Pembelian:</label>
-              <input type="date" id="date" name="date" required />
+              <input
+                type="date"
+                id="date"
+                name="date"
+                required
+                class="dt-start"
+              />
             </div>
             <div>
               <label for="gander">Jenis Kelamin:</label>
               <div class="gander">
-                <input type="radio" id="gander" name="gander" value="male" />
+                <input
+                  type="radio"
+                  id="gander"
+                  name="gander"
+                  value="male"
+                  class="p-gender"
+                />
                 <label for="gander">Laki-laki</label>
-                <input type="radio" id="gander" name="gander" value="female" />
+                <input
+                  type="radio"
+                  id="gander"
+                  name="gander"
+                  value="female"
+                  class="p-gender"
+                />
                 <label for="gander">Perempuan</label>
               </div>
             </div>
@@ -76,13 +121,18 @@
     <footer>
       <small>
         Developer by
-        <a href="https://github.com/dhy0">Dhiyaa Sheva Virgiany Hermans</a>
+        <a href="https://github.com/dhy0" class="u-url"
+          >Dhiyaa Sheva Virgiany Hermans</a
+        >
         <ul>
-          <li><a href="https://github.com/dhy0">Github</a></li>
-          <li><a href="https://instagram.com/dhysheva">Instagram</a></li>
+          <li><a href="https://github.com/dhy0" class="u-url">Github</a></li>
+          <li>
+            <a href="https://instagram.com/dhysheva" class="u-url">Instagram</a>
+          </li>
           <li>
             <a
               href="https://www.linkedin.com/in/dhiyaa-sheva-virgiany-hermans-374a29295/"
+              class="u-url"
               >Linkedin</a
             >
           </li>
